@@ -138,11 +138,7 @@ class MessageViewController: UIViewController,  UITableViewDelegate, UITableView
                     
                     self.messageTableView.reloadData()
                 }
-                else
-                {
-                    self.addmessage(comeInSting: "Welcome", Sender: "System")
-
-                }
+             
         })
         
         self.messageTableView.reloadData()
